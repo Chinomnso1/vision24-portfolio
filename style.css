@@ -1,0 +1,17 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#0b1020;color:#f4f7ff;line-height:1.7}
+nav{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:24px;padding:22px 8%;border-bottom:1px solid #27334a}
+nav a{color:#dce5f5;text-decoration:none}
+nav a:hover{color:#75e0c2}
+nav .logo{margin-right:auto;font-size:20px;font-weight:bold;color:#75e0c2}
+.hero{max-width:850px;margin:100px auto;padding:0 25px;text-align:center}
+h1{font-size:clamp(38px,7vw,64px);line-height:1.15}
+h1 span,.tag{color:#75e0c2}
+.tag{letter-spacing:3px;font-size:13px;font-weight:bold}
+.hero p:not(.tag),.content p,li{color:#b7c2d8}
+.btn{display:inline-block;margin-top:18px;padding:12px 22px;border-radius:8px;background:#75e0c2;color:#0b1020;text-decoration:none;font-weight:bold}
+.content{max-width:800px;min-height:65vh;margin:65px auto;padding:0 25px}
+.content h1{font-size:46px}
+.content a{color:#75e0c2}
+footer{padding:25px;text-align:center;border-top:1px solid #27334a;color:#aab5cc}
+@media(max-width:600px){nav{justify-content:center;gap:14px}nav .logo{width:100%;text-align:center;margin:0}.hero{margin:60px auto}}
